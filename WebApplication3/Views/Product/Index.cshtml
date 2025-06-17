@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    @foreach(var item in @Model)
+    {
+        <h1>Name is @item.Name</h1>
+        <a href="/Product/Details/@item.Id">Details</a>
+    }
+</body>
+    </html>
